@@ -2,7 +2,15 @@
 
 This is a simple Docker image for building and testing your Scala project.
 
-The image contains the latest Alpine, with SBT and Docker installed (the latest package available from the edge Alpine repository). It is based upon the latest `openjdk:8-jre-alpine` image.
+The image contains the latest Alpine, with SBT and Docker installed (the latest package available from the edge Alpine repository). It is based upon the latest `openjdk` image.
+
+## Current Versions
+
+* Scala: `12.2.6`
+* Docker: `18.03.1`
+* SBT: `1.2.1`
+* Java: `8u171`
+* Alpine: `3.8`
 
 ## Usage
 
