@@ -20,5 +20,5 @@ RUN wget https://piccolo.link/sbt-$SBT_VERSION.tgz && \
   sbt sbtVersion
 
 WORKDIR /workdir
-ENTRYPOINT sbt
-CMD test
+ENTRYPOINT ["sbt"]
+CMD ["test"]
